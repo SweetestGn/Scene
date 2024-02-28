@@ -1,0 +1,230 @@
+24.02.2024|19:06:29:842|5|bd7af010|iQScanServer.cpp(12589)|ScanServer::scanStart: Successfully opened local file /Scans/Scans/FARO_LS01205_520.fls
+24.02.2024|19:06:29:842|7|bd7af010|ReflOffsetCompensation.cpp(92)|No calib object to obtain scanhalf infos from.
+24.02.2024|19:06:29:842|7|bd7af010|ReflOffsetCompensation.cpp(114)|No meaningful value for scan's firstHalfEnd. ReflOffsetCompensation will be disabled. This is OK on a scanner, not in SCENE.
+24.02.2024|19:06:29:843|7|bd7af010|iQScanServer.cpp(12683)|closeScanDataInterf(stage=0) entering
+24.02.2024|19:06:29:843|7|bd7af010|iQScanServer.cpp(12849)|closeScanDataInterf(stage=0) leaving
+24.02.2024|19:06:29:843|7|bd7af010|iQScanServer.cpp(12683)|closeScanDataInterf(stage=1) entering
+24.02.2024|19:06:29:997|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture_source")
+24.02.2024|19:06:29:997|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(72)|notifyStreamComplete(path: "ScanData/ReferencePicture_source") --> pending
+24.02.2024|19:06:30:122|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture")
+24.02.2024|19:06:30:122|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(72)|notifyStreamComplete(path: "ScanData/ReferencePicture") --> pending
+24.02.2024|19:06:30:262|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture_1")
+24.02.2024|19:06:30:262|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(72)|notifyStreamComplete(path: "ScanData/ReferencePicture_1") --> pending
+24.02.2024|19:06:30:278|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=243569229, ePC-time=1708776390277036, timeFpgaAutomation=201725798
+24.02.2024|19:06:30:414|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture_source_1")
+24.02.2024|19:06:30:414|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(72)|notifyStreamComplete(path: "ScanData/ReferencePicture_source_1") --> pending
+24.02.2024|19:06:30:414|7|bd7af010|iQScanServer.cpp(12849)|closeScanDataInterf(stage=1) leaving
+24.02.2024|19:06:30:414|7|bd7af010|iQScanServer.cpp(12683)|closeScanDataInterf(stage=3) entering
+24.02.2024|19:06:30:415|5|bd7af010|iQScanServer.cpp(12734)|Got 0 gps packages.
+24.02.2024|19:06:30:415|7|bd7af010|iQScanServer.cpp(12849)|closeScanDataInterf(stage=3) leaving
+24.02.2024|19:06:30:415|7|bd7af010|iQScanServer.cpp(12683)|closeScanDataInterf(stage=4) entering
+24.02.2024|19:06:30:415|3|bd7af010|iQScanServer.cpp - closeScanDataInterf(12786)|Failed to query localizerTrafo for scan cf0a2f22-8729-469a-aaa5-1bbebae2e244: Couldn't find job for scan ID: cf0a2f22-8729-469a-aaa5-1bbebae2e244
+24.02.2024|19:06:30:416|5|bd7af010|Scan2DataWriteInterf.cpp(1561)|Scan2DataWriteInterf::informScanCompleted()
+24.02.2024|19:06:30:416|7|bd7af010|ScanDataStreamScanlineIndex.cpp(45)|ScanDataStreamScanlineIndex::writeTo, m_index.size()=1251
+24.02.2024|19:06:30:417|7|bd7af010|ScanDataStreamScanlineIndex.cpp(75)|Wrote ScanlineIndex with 1251 scanlines
+24.02.2024|19:06:30:569|7|ScanOp_Thread|ScanOpPhoton2.cpp(5248)|Buffer contains 498 messages, taking up 1008182 of 10000000 bytes
+24.02.2024|19:06:30:571|5|ThreadBase|Performance.cpp(480)|CPU-Usage: 035.35 CPU-Idle: 064.65  Mem-Total: 3804228 kB  Mem-Used: 1292264 kB  Mem-Free: 2511964 kB  Mem-Buffer: 0016676 kB  Swap-Total: 0000000 kB  Swap-Used: 0000000 kB  Swap-Free: 0000000 kB  Swap-Cache: 0540216 kB  IO (sdb): SectorsRead: 00000 (00000.000 1/s)  SectorsWrite: 05913 (01313.416 1/s)  SectorSize: 00.500 kB  Read: 00000.000 kB (00000.000 kB/s)  Write: 02956.500 kB (00656.708 kB/s)  Time: 04502 ms  
+24.02.2024|19:06:31:138|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ScanDataStream0")
+24.02.2024|19:06:31:138|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(79)|notifyStreamComplete(path: "ScanData/ScanDataStream0") --> completed live-stream
+24.02.2024|19:06:31:138|5|bd7af010|Scan2DataWriteInterf.cpp(490)|Scan2DataWriteInterf::close()
+24.02.2024|19:06:31:242|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ScanlineIndex")
+24.02.2024|19:06:31:242|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(100)|notifyStreamComplete(path: "ScanData/ScanlineIndex") --> completed
+24.02.2024|19:06:31:281|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=244571853, ePC-time=1708776391278025, timeFpgaAutomation=202728422
+24.02.2024|19:06:31:353|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/Log")
+24.02.2024|19:06:31:353|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(100)|notifyStreamComplete(path: "Log") --> completed
+24.02.2024|19:06:31:487|7|bd7af010|Scan2DataWriteInterf.cpp(815)|Creating hash for scan /Scans/Scans/FARO_LS01205_519.fls
+24.02.2024|19:06:31:489|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/Version
+24.02.2024|19:06:31:489|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is 57E95B2C0424206B32A4B8FFE13775256A66AD0F262B28FC16A11D9B22C3CC61
+24.02.2024|19:06:31:494|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/Log
+24.02.2024|19:06:31:496|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is 1EE9DBD3A1F131E48E1768D8F7F8565C4DB5C3DBAE936FE834126EDA20E789E0
+24.02.2024|19:06:31:496|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/Parameters/Scan0
+24.02.2024|19:06:31:496|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is 13A319104C41C82FAAC34213BA6D9F267575A4A5163A8DF7CD1D85C0EEA2540D
+24.02.2024|19:06:31:496|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/Parameters/ScannerInfo
+24.02.2024|19:06:31:496|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is C4A34F29C25DDB06B492C688CA8D5E9A3A94BC86D4609035ED93485BE3165B16
+24.02.2024|19:06:31:496|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/Parameters/ScannerHardware
+24.02.2024|19:06:31:497|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is D1BE0FCB3B8129919480D4B0011ECA1661F727BA80B3355D6CAD8A416CABFA54
+24.02.2024|19:06:31:497|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/Parameters/Scan1
+24.02.2024|19:06:31:497|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is AE4A61E2A857DE696FB4EAE131D092EE97466FAD22218F33102E1B191A857520
+24.02.2024|19:06:31:497|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/ScanData/ScanDataStream0
+24.02.2024|19:06:31:497|7|bd7af010|Scan2DataWriteInterf.cpp(833)|Found cached hash for ScanDataStream0
+24.02.2024|19:06:31:498|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is 99FAC975D6F42F6913F1E7C2DF16C59742E2B42B77D71E145014A141E48E4899
+24.02.2024|19:06:31:498|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/ScanData/ScanlineIndex
+24.02.2024|19:06:31:498|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is C6070EB6AC3B62FD8A625F40E6FB79CBDD014BB39CAA245ACC5020EDD7DE72A4
+24.02.2024|19:06:31:498|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture_source
+24.02.2024|19:06:31:504|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is F74B3C248D5C5C66F7793A0635E6D5649FB9DD826EB60D309705F51EFCED55C3
+24.02.2024|19:06:31:504|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture
+24.02.2024|19:06:31:507|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is DD6594EB2CCF960A3C8EB5706040FBC09C1211E02C9D730DDE88986B1F15DB67
+24.02.2024|19:06:31:507|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture_1
+24.02.2024|19:06:31:511|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is DD6594EB2CCF960A3C8EB5706040FBC09C1211E02C9D730DDE88986B1F15DB67
+24.02.2024|19:06:31:511|7|bd7af010|Scan2DataWriteInterf.cpp(827)|Processing /Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture_source_1
+24.02.2024|19:06:31:516|7|bd7af010|Scan2DataWriteInterf.cpp(849)|Hash is F74B3C248D5C5C66F7793A0635E6D5649FB9DD826EB60D309705F51EFCED55C3
+24.02.2024|19:06:31:516|7|bd7af010|Scan2DataWriteInterf.cpp(861)|Writing hashes to /Scans/Scans/FARO_LS01205_519.fls/SHA256SUM
+24.02.2024|19:06:31:630|7|bd7af010|Scan2DataWriteInterf.cpp(890)|Hash of /Scans/Scans/FARO_LS01205_519.fls/SHA256SUM is D65F9AAAE041CD9A5793B388A045B9957DA53EC36F9A8715F2BE8ADDB3FADCFE
+24.02.2024|19:06:31:751|7|bd7af010|Scan2DataWriteInterf.cpp(935)|Signature of /Scans/Scans/FARO_LS01205_519.fls/SHA256SUM is 0962000775ecf33edf41dcde156aa7966c0860d3d12879fe04a1285da0d956ca8b5c05ac69170eba3deead54d70b4f0fd270d2a95d106a053affc6d2be8b987fe55711554e0873a12c8f93e931d328fffc9238915ddff092dec241e38bab8e3add663800d3b7d54c003c833bbcd4e00ab0673be8fd09476e8082ddf372106ef2
+24.02.2024|19:06:31:862|7|bd7af010|Scan2DataWriteInterf.cpp(966)|Adding empty file "/Scans/Scans/FARO_LS01205_519.fls/FARO_LS01205_519.fls".
+24.02.2024|19:06:31:966|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/Version")
+24.02.2024|19:06:31:967|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(100)|notifyStreamComplete(path: "Version") --> completed
+24.02.2024|19:06:31:967|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/Parameters/Scan0")
+24.02.2024|19:06:31:967|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(100)|notifyStreamComplete(path: "Parameters/Scan0") --> completed
+24.02.2024|19:06:31:968|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/Parameters/ScannerInfo")
+24.02.2024|19:06:31:968|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(100)|notifyStreamComplete(path: "Parameters/ScannerInfo") --> completed
+24.02.2024|19:06:31:968|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/Parameters/ScannerHardware")
+24.02.2024|19:06:31:969|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(100)|notifyStreamComplete(path: "Parameters/ScannerHardware") --> completed
+24.02.2024|19:06:31:969|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/Parameters/Scan1")
+24.02.2024|19:06:31:969|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(100)|notifyStreamComplete(path: "Parameters/Scan1") --> completed
+24.02.2024|19:06:31:970|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ScanDataStream0")
+24.02.2024|19:06:31:971|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ScanlineIndex")
+24.02.2024|19:06:31:971|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture_source")
+24.02.2024|19:06:31:972|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture")
+24.02.2024|19:06:31:972|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture_1")
+24.02.2024|19:06:31:973|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/ScanData/ReferencePicture_source_1")
+24.02.2024|19:06:31:973|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/Log")
+24.02.2024|19:06:31:973|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/SHA256SUM")
+24.02.2024|19:06:31:974|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(100)|notifyStreamComplete(path: "SHA256SUM") --> completed
+24.02.2024|19:06:31:974|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/SHA256SUM.sha")
+24.02.2024|19:06:31:974|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(100)|notifyStreamComplete(path: "SHA256SUM.sha") --> completed
+24.02.2024|19:06:31:975|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/SHA256SUM.sig")
+24.02.2024|19:06:31:975|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(100)|notifyStreamComplete(path: "SHA256SUM.sig") --> completed
+24.02.2024|19:06:31:975|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(61)|notifyStreamComplete(path: "/Scans/Scans/FARO_LS01205_519.fls/FARO_LS01205_519.fls")
+24.02.2024|19:06:31:975|5|bd7af010|ZipStreamCoordinator.cpp - notifyStreamComplete(100)|notifyStreamComplete(path: "FARO_LS01205_519.fls") --> completed
+24.02.2024|19:06:31:976|7|bd7af010|iQScanServer.cpp(12822)|closeScanDataInterf(stage=4) leaving
+24.02.2024|19:06:31:976|7|bd7af010|iQScanServer.cpp(12683)|closeScanDataInterf(stage=5) entering
+24.02.2024|19:06:31:976|7|bd7af010|iQScanServer.cpp(12840)|Succesfully closed scan interface
+24.02.2024|19:06:31:977|7|bd7af010|iQScanServer.cpp(12849)|closeScanDataInterf(stage=5) leaving
+24.02.2024|19:06:31:977|7|bd7af010|iQScanServer.cpp(12952)|Adding split scan FARO_LS01205_519.fls to scans collection
+24.02.2024|19:06:31:977|7|bd7af010|SDCardManagement.cpp(477)|SDCardBusyScope 0xffff602457d0: constructor , writeAccess=false
+24.02.2024|19:06:31:977|7|bd7af010|SDCardManagement.cpp(1736)|Mount count incremented to 3
+24.02.2024|19:06:31:980|7|bd7af010|SDCardManagement.cpp(490)|success=true; inserted=true
+24.02.2024|19:06:31:984|7|bd7af010|ReadScanfile.cpp(249)|No panocam index found in '"FARO_LS01205_519"'
+24.02.2024|19:06:32:003|7|bd7af010|SDCardManagement.cpp(495)|SDCardBusyScope 0xffff602457d0: destructor. mount success: true, needUnmount=true
+24.02.2024|19:06:32:003|7|bd7af010|SDCardManagement.cpp(1762)|Mount count decremented to 2
+24.02.2024|19:06:32:006|7|bd7af010|LsDataStorageServiceImpl.cpp - persist(896)|LsDataStorageServiceImpl::persist() entering. Target path: '/Scans'.
+24.02.2024|19:06:32:006|7|bd7af010|SDCardManagement.cpp(477)|SDCardBusyScope 0xffff609dd790: constructor , writeAccess=true
+24.02.2024|19:06:32:006|7|bd7af010|SDCardManagement.cpp(1736)|Mount count incremented to 3
+24.02.2024|19:06:32:008|7|bd7af010|SDCardManagement.cpp(490)|success=true; inserted=true
+24.02.2024|19:06:32:008|7|bd7af010|LsDataStorageServiceImpl.cpp - persist(968)|Scheduled serialization by the CryptoThread
+24.02.2024|19:06:32:008|5|bd7af010|LsDataStorageServiceImpl.cpp - persist(993)|persist leaving
+24.02.2024|19:06:32:008|7|14d9f010|LsDataStorageServiceImpl.cpp - runCryptoThread(1591)|Starting persist hold-off delay. Will delay by max. 4999 ms.
+24.02.2024|19:06:32:008|7|bd7af010|iQScanServer.cpp(12957)|Split scan added
+24.02.2024|19:06:32:010|7|bd7af010|Scan2DataWriteInterf.cpp(231)|Scan2DataWriteInterf destructor for instance 187650831863008
+24.02.2024|19:06:32:010|5|bd7af010|Scan2DataWriteInterf.cpp(490)|Scan2DataWriteInterf::close()
+24.02.2024|19:06:32:012|7|bd7af010|BufferSizeSdCardBackpressureAdapter.cpp - notifyBufferSize(59)|bufferSize: 2.04653MB, allowedBandwidth: 4.87209MB/s
+24.02.2024|19:06:32:012|7|befdf010|StreamProviderImpl.cpp - dispatchMessagesToClients(368)|m_memoryOccupied=10187120 (48.576% full), calls=1, calls/s=0.365736, m_oldestScanLineTimeInBuffer= 0, m_youngestScanLineTimeInBuffer= 13096
+24.02.2024|19:06:32:012|7|bd7af010|ZipConstructionBandwidthManager.cpp - notifyBandwidthChanged(65)|ZipConstructionBandwidthManager::notifyBandwidthChanged(newBandwidth: 5.10876e+06)
+24.02.2024|19:06:32:283|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=245573656, ePC-time=1708776392280561, timeFpgaAutomation=203730225
+24.02.2024|19:06:33:021|7|bd7af010|BufferSizeSdCardBackpressureAdapter.cpp - notifyBufferSize(59)|bufferSize: 0.000214577MB, allowedBandwidth: 4.99999MB/s
+24.02.2024|19:06:33:021|7|bd7af010|ZipConstructionBandwidthManager.cpp - notifyBandwidthChanged(65)|ZipConstructionBandwidthManager::notifyBandwidthChanged(newBandwidth: 5.24287e+06)
+24.02.2024|19:06:33:022|7|befdf010|StreamProviderImpl.cpp - dispatchMessagesToClients(368)|m_memoryOccupied=13089208 (62.4142% full), calls=315, calls/s=311.951, m_oldestScanLineTimeInBuffer= 0, m_youngestScanLineTimeInBuffer= 16829
+24.02.2024|19:06:33:283|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=246574348, ePC-time=1708776393282428, timeFpgaAutomation=204730917
+24.02.2024|19:06:33:601|7|e77ef010|LinuxWlanConfigurator.cpp(1217)|updateFromSystem() writing WLAN state information to GeneralSettings
+24.02.2024|19:06:33:602|7|e77ef010|LinuxWlanConfigurator.cpp(1221)|WPA state when loading to GeneralSettings: 9 -> CONNECTED
+24.02.2024|19:06:33:614|7|e77ef010|LogLinuxCommand.cpp(121)|'iw reg get' returned: 0
+24.02.2024|19:06:33:615|7|e77ef010|LinuxWlanConfigurator.cpp(1311)|AP mode. Writing current IP address '192.168.43.1' to generalSettings
+24.02.2024|19:06:34:028|7|bd7af010|BufferSizeSdCardBackpressureAdapter.cpp - notifyBufferSize(59)|bufferSize: 0.000214577MB, allowedBandwidth: 4.99999MB/s
+24.02.2024|19:06:34:029|7|bd7af010|ZipConstructionBandwidthManager.cpp - notifyBandwidthChanged(65)|ZipConstructionBandwidthManager::notifyBandwidthChanged(newBandwidth: 5.24287e+06)
+24.02.2024|19:06:34:029|7|befdf010|StreamProviderImpl.cpp - dispatchMessagesToClients(368)|m_memoryOccupied=13871768 (66.1457% full), calls=96, calls/s=95.3074, m_oldestScanLineTimeInBuffer= 0, m_youngestScanLineTimeInBuffer= 17835
+24.02.2024|19:06:34:284|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=247574810, ePC-time=1708776394283033, timeFpgaAutomation=205731379
+24.02.2024|19:06:34:477|7|e57af010|SystemMonitors.cpp(1096)|Temperatures: TEMP_CPU=35; TEMP_FPGA=29; TEMP_LSSENSORDATA=29; TEMP_BATTERY=24; TEMP_OPTAMPL=27; TEMP_F0086_CPU=26; SENSOR_TEMP_APD=23; TEMP_GPU=35; TEMP_SSD=36; TEMP_WLAN=44; TEMP_EPC=26; 
+24.02.2024|19:06:35:035|7|bd7af010|BufferSizeSdCardBackpressureAdapter.cpp - notifyBufferSize(59)|bufferSize: 0.000214577MB, allowedBandwidth: 4.99999MB/s
+24.02.2024|19:06:35:035|7|bd7af010|ZipConstructionBandwidthManager.cpp - notifyBandwidthChanged(65)|ZipConstructionBandwidthManager::notifyBandwidthChanged(newBandwidth: 5.24287e+06)
+24.02.2024|19:06:35:035|7|befdf010|StreamProviderImpl.cpp - dispatchMessagesToClients(368)|m_memoryOccupied=14653912 (69.8753% full), calls=96, calls/s=95.3855, m_oldestScanLineTimeInBuffer= 0, m_youngestScanLineTimeInBuffer= 18842
+24.02.2024|19:06:35:071|7|ScanOp_Thread|ScanOpPhoton2.cpp(5248)|Buffer contains 0 messages, taking up 0 of 10000000 bytes
+24.02.2024|19:06:35:072|5|ThreadBase|Performance.cpp(480)|CPU-Usage: 036.34 CPU-Idle: 063.66  Mem-Total: 3804228 kB  Mem-Used: 1300156 kB  Mem-Free: 2504072 kB  Mem-Buffer: 0016684 kB  Swap-Total: 0000000 kB  Swap-Used: 0000000 kB  Swap-Free: 0000000 kB  Swap-Cache: 0544760 kB  IO (sdb): SectorsRead: 00000 (00000.000 1/s)  SectorsWrite: 13285 (02951.566 1/s)  SectorSize: 00.500 kB  Read: 00000.000 kB (00000.000 kB/s)  Write: 06642.500 kB (01475.783 kB/s)  Time: 04501 ms  
+24.02.2024|19:06:35:285|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=248575745, ePC-time=1708776395283518, timeFpgaAutomation=206732314
+24.02.2024|19:06:36:039|7|bd7af010|BufferSizeSdCardBackpressureAdapter.cpp - notifyBufferSize(59)|bufferSize: 0.000214577MB, allowedBandwidth: 4.99999MB/s
+24.02.2024|19:06:36:039|7|bd7af010|ZipConstructionBandwidthManager.cpp - notifyBandwidthChanged(65)|ZipConstructionBandwidthManager::notifyBandwidthChanged(newBandwidth: 5.24287e+06)
+24.02.2024|19:06:36:039|7|befdf010|StreamProviderImpl.cpp - dispatchMessagesToClients(368)|m_memoryOccupied=15436432 (73.6066% full), calls=96, calls/s=95.6154, m_oldestScanLineTimeInBuffer= 0, m_youngestScanLineTimeInBuffer= 19849
+24.02.2024|19:06:36:287|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=249578224, ePC-time=1708776396284416, timeFpgaAutomation=207734793
+24.02.2024|19:06:36:690|7|e57af010|SystemMonitors.cpp(1894)|F0074 - PSU state 0x85
+24.02.2024|19:06:36:690|7|e57af010|SystemMonitors.cpp(1895)|F0074 - Current system power usage: 33.453825 W [16.045000 V, -2.085000 A]
+24.02.2024|19:06:36:690|7|e57af010|SystemMonitors.cpp(1896)|F0074 - Current external supply power usage: 0.028864 W [0.352000 V, 0.082000 A]
+24.02.2024|19:06:36:691|7|e57af010|SystemMonitors.cpp(1897)|F0074 - Battery: Serial: 0x00002E08; Load: 98% (of total 6149 mAh, design capacity: 6700 mAh);  Current: -2169 mA; Voltage: 16.237 V; Cycles: 16;   Power Source: Disconnected 
+24.02.2024|19:06:36:932|7|bd7af010|iQScanServer.cpp(6684)|N = 3904, nBytesProcessed: 7880200, throughput: 0.75151443, buffer: Buffer contains 0 messages, taking up 0 of 10000000 bytes
+24.02.2024|19:06:37:008|7|14d9f010|LsDataStorageServiceImpl.cpp - runCryptoThread(1572)|Proceeding to serialize scan collections into ls-data after a delay.
+24.02.2024|19:06:37:008|7|14d9f010|ScansCollectionServiceImpl.cpp - scansSerialization(381)|Will serialize 1 scans.
+24.02.2024|19:06:37:010|7|14d9f010|ProjectsCollectionServiceImpl.cpp - projectsSerialization(853)|Entering projectsSerialization(). Project ID missing
+24.02.2024|19:06:37:010|7|14d9f010|ProjectsCollectionServiceImpl.cpp - projectsSerialization(863)|Will serialize 2 project(s).
+24.02.2024|19:06:37:010|7|14d9f010|ProjectsCollectionServiceImpl.cpp - insertPropertyObjects(587)|insertPropertyObjects() for project/cluster 'Default_Project_Copy'.
+24.02.2024|19:06:37:011|7|14d9f010|ProjectsCollectionServiceImpl.cpp - insertPropertyObjects(587)|insertPropertyObjects() for project/cluster 'Default_Project'.
+24.02.2024|19:06:37:012|7|14d9f010|ProjectsCollectionServiceImpl.cpp - clustersSerialization(902)|Will serialize 0 cluster(s).
+24.02.2024|19:06:37:012|7|14d9f010|LsDataStorageServiceImpl.cpp - updateLsDataRepo(1483)|The repository contains 23 objects (before garbage collection)
+24.02.2024|19:06:37:013|5|14d9f010|LsDataStorageServiceImpl.cpp - updateLsDataRepo(1516)|Updated LsData repo, new RootObject revision AFE7E8880DBD4467E2272DB7D7909322D05FA7F4C6D6162DFA02E20879637AA2 with 0 objects garbage collected in 0ms
+24.02.2024|19:06:37:015|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/ls-data/objects_temp/0
+24.02.2024|19:06:37:048|7|bd7af010|BufferSizeSdCardBackpressureAdapter.cpp - notifyBufferSize(59)|bufferSize: 0.000214577MB, allowedBandwidth: 4.99999MB/s
+24.02.2024|19:06:37:048|7|bd7af010|ZipConstructionBandwidthManager.cpp - notifyBandwidthChanged(65)|ZipConstructionBandwidthManager::notifyBandwidthChanged(newBandwidth: 5.24287e+06)
+24.02.2024|19:06:37:050|7|befdf010|StreamProviderImpl.cpp - dispatchMessagesToClients(368)|m_memoryOccupied=16218696 (77.3368% full), calls=96, calls/s=94.9391, m_oldestScanLineTimeInBuffer= 0, m_youngestScanLineTimeInBuffer= 20855
+24.02.2024|19:06:37:266|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(811)|Written object file "/Scans/ls-data/objects_temp/0".
+24.02.2024|19:06:37:268|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/ls-data/objects_temp/1
+24.02.2024|19:06:37:288|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=250578702, ePC-time=1708776397286959, timeFpgaAutomation=208735271
+24.02.2024|19:06:37:522|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(811)|Written object file "/Scans/ls-data/objects_temp/1".
+24.02.2024|19:06:37:523|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/ls-data/objects_temp/2
+24.02.2024|19:06:37:770|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(811)|Written object file "/Scans/ls-data/objects_temp/2".
+24.02.2024|19:06:37:771|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/ls-data/objects_temp/3
+24.02.2024|19:06:38:018|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(811)|Written object file "/Scans/ls-data/objects_temp/3".
+24.02.2024|19:06:38:019|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/ls-data/objects_temp/4
+24.02.2024|19:06:38:054|7|bd7af010|BufferSizeSdCardBackpressureAdapter.cpp - notifyBufferSize(59)|bufferSize: 0.000214577MB, allowedBandwidth: 4.99999MB/s
+24.02.2024|19:06:38:054|7|bd7af010|ZipConstructionBandwidthManager.cpp - notifyBandwidthChanged(65)|ZipConstructionBandwidthManager::notifyBandwidthChanged(newBandwidth: 5.24287e+06)
+24.02.2024|19:06:38:055|7|befdf010|StreamProviderImpl.cpp - dispatchMessagesToClients(368)|m_memoryOccupied=17001376 (81.0689% full), calls=96, calls/s=95.5985, m_oldestScanLineTimeInBuffer= 0, m_youngestScanLineTimeInBuffer= 21862
+24.02.2024|19:06:38:266|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(811)|Written object file "/Scans/ls-data/objects_temp/4".
+24.02.2024|19:06:38:267|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/ls-data/objects_temp/5
+24.02.2024|19:06:38:291|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=251581462, ePC-time=1708776398287562, timeFpgaAutomation=209738031
+24.02.2024|19:06:38:526|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(811)|Written object file "/Scans/ls-data/objects_temp/5".
+24.02.2024|19:06:38:527|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/ls-data/objects_temp/6
+24.02.2024|19:06:38:778|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(811)|Written object file "/Scans/ls-data/objects_temp/6".
+24.02.2024|19:06:38:779|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/ls-data/objects_temp/a
+24.02.2024|19:06:39:034|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(811)|Written object file "/Scans/ls-data/objects_temp/a".
+24.02.2024|19:06:39:035|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/ls-data/objects_temp/b
+24.02.2024|19:06:39:062|7|bd7af010|BufferSizeSdCardBackpressureAdapter.cpp - notifyBufferSize(59)|bufferSize: 0.000214577MB, allowedBandwidth: 4.99999MB/s
+24.02.2024|19:06:39:062|7|bd7af010|ZipConstructionBandwidthManager.cpp - notifyBandwidthChanged(65)|ZipConstructionBandwidthManager::notifyBandwidthChanged(newBandwidth: 5.24287e+06)
+24.02.2024|19:06:39:062|7|befdf010|StreamProviderImpl.cpp - dispatchMessagesToClients(368)|m_memoryOccupied=17784528 (84.8032% full), calls=96, calls/s=95.293, m_oldestScanLineTimeInBuffer= 0, m_youngestScanLineTimeInBuffer= 22868
+24.02.2024|19:06:39:282|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(811)|Written object file "/Scans/ls-data/objects_temp/b".
+24.02.2024|19:06:39:283|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/ls-data/objects_temp/c
+24.02.2024|19:06:39:294|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=252585322, ePC-time=1708776399290054, timeFpgaAutomation=210741891
+24.02.2024|19:06:39:530|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(811)|Written object file "/Scans/ls-data/objects_temp/c".
+24.02.2024|19:06:39:531|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/ls-data/objects_temp/e
+24.02.2024|19:06:39:573|7|ScanOp_Thread|ScanOpPhoton2.cpp(5248)|Buffer contains 0 messages, taking up 0 of 10000000 bytes
+24.02.2024|19:06:39:575|5|ThreadBase|Performance.cpp(480)|CPU-Usage: 043.98 CPU-Idle: 056.02  Mem-Total: 3804228 kB  Mem-Used: 1310896 kB  Mem-Free: 2493332 kB  Mem-Buffer: 0016724 kB  Swap-Total: 0000000 kB  Swap-Used: 0000000 kB  Swap-Free: 0000000 kB  Swap-Cache: 0548484 kB  IO (sdb): SectorsRead: 00000 (00000.000 1/s)  SectorsWrite: 00143 (00031.757 1/s)  SectorSize: 00.500 kB  Read: 00000.000 kB (00000.000 kB/s)  Write: 00071.500 kB (00015.878 kB/s)  Time: 04503 ms  
+24.02.2024|19:06:39:778|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(811)|Written object file "/Scans/ls-data/objects_temp/e".
+24.02.2024|19:06:39:826|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(817)|Removed object file folder "/Scans/ls-data/objects"
+24.02.2024|19:06:39:827|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeObjectsAndEncrypt(819)|Renamed object file folder "/Scans/ls-data/objects_temp" -> "/Scans/ls-data/objects"
+24.02.2024|19:06:39:827|5|14d9f010|LsDataStorageServiceImpl.cpp - runCryptoThread(1654)|Wrote new RootObject revision AFE7E8880DBD4467E2272DB7D7909322D05FA7F4C6D6162DFA02E20879637AA2
+24.02.2024|19:06:39:827|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeRevisionsAndEncrypt(833)|Writing revisions to file '"/Scans/index-v2.tmp"'.
+24.02.2024|19:06:39:828|7|14d9f010|OpenPgpTools_rnp.cpp - signAndEncryptInternal(474)|Starting signing and encryption of file:  --> /Scans/index-v2.tmp
+24.02.2024|19:06:40:067|7|bd7af010|BufferSizeSdCardBackpressureAdapter.cpp - notifyBufferSize(59)|bufferSize: 0.000214577MB, allowedBandwidth: 4.99999MB/s
+24.02.2024|19:06:40:068|7|bd7af010|ZipConstructionBandwidthManager.cpp - notifyBandwidthChanged(65)|ZipConstructionBandwidthManager::notifyBandwidthChanged(newBandwidth: 5.24287e+06)
+24.02.2024|19:06:40:068|7|befdf010|StreamProviderImpl.cpp - dispatchMessagesToClients(368)|m_memoryOccupied=18567120 (88.5349% full), calls=96, calls/s=95.4451, m_oldestScanLineTimeInBuffer= 0, m_youngestScanLineTimeInBuffer= 23875
+24.02.2024|19:06:40:078|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeRevisionsAndEncrypt(838)|Encrypted to file '"/Scans/index-v2.tmp"'.
+24.02.2024|19:06:40:087|7|14d9f010|LsDataStorageServiceImpl.cpp - serializeRevisionsAndEncrypt(856)|Written revisions to '"/Scans/index-v2"'.
+24.02.2024|19:06:40:087|7|14d9f010|SDCardManagement.cpp(495)|SDCardBusyScope 0xffff609dd790: destructor. mount success: true, needUnmount=true
+24.02.2024|19:06:40:087|7|14d9f010|SDCardManagement.cpp(1762)|Mount count decremented to 2
+24.02.2024|19:06:40:298|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=253588176, ePC-time=1708776400293952, timeFpgaAutomation=211744745
+24.02.2024|19:06:40:466|7|befdf010|StreamProviderImpl.cpp - takeMemory(82)|BufferedStreamProviderImpl: increase memory by 10485760, new max memory: 31457280
+24.02.2024|19:06:40:466|7|befdf010|MemoryPressureManager.cpp - requestMemory(360)|In manager 'master': requestMemory GRANTED: client BufferedStreamProviderImpl::MemoryPressureClientImpl_281470279228320, amountBytesGranted=10485760, amountBytesUsed=10485760, num clients=3, m_totalMemoryBytesFree=8056960, m_totalMemoryBytesManaged=60000000 (57.2205 MiB), allMemUsed=51943040, allMemOwned=60000000
+24.02.2024|19:06:41:074|7|bd7af010|BufferSizeSdCardBackpressureAdapter.cpp - notifyBufferSize(59)|bufferSize: 0.000214577MB, allowedBandwidth: 4.99999MB/s
+24.02.2024|19:06:41:075|7|bd7af010|ZipConstructionBandwidthManager.cpp - notifyBandwidthChanged(65)|ZipConstructionBandwidthManager::notifyBandwidthChanged(newBandwidth: 5.24287e+06)
+24.02.2024|19:06:41:075|7|befdf010|StreamProviderImpl.cpp - dispatchMessagesToClients(368)|m_memoryOccupied=19349560 (61.5106% full), calls=96, calls/s=95.3279, m_oldestScanLineTimeInBuffer= 0, m_youngestScanLineTimeInBuffer= 24882
+24.02.2024|19:06:41:298|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=254589300, ePC-time=1708776401296806, timeFpgaAutomation=212745869
+24.02.2024|19:06:42:079|7|bd7af010|BufferSizeSdCardBackpressureAdapter.cpp - notifyBufferSize(59)|bufferSize: 0.000214577MB, allowedBandwidth: 4.99999MB/s
+24.02.2024|19:06:42:079|7|bd7af010|ZipConstructionBandwidthManager.cpp - notifyBandwidthChanged(65)|ZipConstructionBandwidthManager::notifyBandwidthChanged(newBandwidth: 5.24287e+06)
+24.02.2024|19:06:42:079|7|befdf010|StreamProviderImpl.cpp - dispatchMessagesToClients(368)|m_memoryOccupied=20131648 (63.9968% full), calls=96, calls/s=95.5722, m_oldestScanLineTimeInBuffer= 0, m_youngestScanLineTimeInBuffer= 25888
+24.02.2024|19:06:42:301|7|bcf9f010|ScanOpPhoton2.cpp - process(649)|Received TXM package: fpgaTime=255591165, ePC-time=1708776402297923, timeFpgaAutomation=213747734
+24.02.2024|19:06:42:396|5|bd7af010|iQScanServer.cpp(12856)|Splitting scan file
+24.02.2024|19:06:42:396|7|bd7af010|Scan2DataWriteInterf.cpp(199)|Scan2DataWriteInterf constructor for instance 281472313145856
+24.02.2024|19:06:42:400|7|bd7af010|iQScanServer.cpp(12240)|initScanDataInterf entering
+24.02.2024|19:06:42:401|7|bd7af010|ReflOffsetCompensation.cpp(92)|No calib object to obtain scanhalf infos from.
+24.02.2024|19:06:42:401|7|bd7af010|ReflOffsetCompensation.cpp(114)|No meaningful value for scan's firstHalfEnd. ReflOffsetCompensation will be disabled. This is OK on a scanner, not in SCENE.
+24.02.2024|19:06:42:401|7|bd7af010|iQScanServer.cpp(12399)|initScanDataInterf: scanOpNum=520
+24.02.2024|19:06:42:401|7|bd7af010|iQScanServer.cpp(12426)|initScanDataInterf: updated scanOpNum=521
+24.02.2024|19:06:42:401|7|bd7af010|iQScanServer.cpp(12436)|localScanPath: /Scans/Scans/FARO_LS01205_521.fls
+24.02.2024|19:06:42:401|7|bd7af010|iQScanServer.cpp(12437)|scanDirName: FARO_LS01205_521.fls
+24.02.2024|19:06:42:401|7|bd7af010|iQScanServer.cpp(12438)|baseName: FARO_LS01205_521
+24.02.2024|19:06:42:402|3|bd7af010|ScanApiServiceImpl.cpp - setJobFileName_impl(1204)|Missing job for scan 8aee551b-bc30-46bc-ae45-293c5f4fbbc3
+24.02.2024|19:06:42:434|7|bd7af010|ReflOffsetCompensation.cpp(92)|No calib object to obtain scanhalf infos from.
+24.02.2024|19:06:42:434|7|bd7af010|ReflOffsetCompensation.cpp(114)|No meaningful value for scan's firstHalfEnd. ReflOffsetCompensation will be disabled. This is OK on a scanner, not in SCENE.
+24.02.2024|19:06:42:459|7|bd7af010|ReflOffsetCompensation.cpp(92)|No calib object to obtain scanhalf infos from.
+24.02.2024|19:06:42:459|7|bd7af010|ReflOffsetCompensation.cpp(114)|No meaningful value for scan's firstHalfEnd. ReflOffsetCompensation will be disabled. This is OK on a scanner, not in SCENE.
+24.02.2024|19:06:42:460|1|bd7af010|iQScanServer.cpp - initScanDataInterf(12552)|Cannot initialize stream segmenter for scan 8aee551b-bc30-46bc-ae45-293c5f4fbbc3: Couldn't find job for scan ID: 8aee551b-bc30-46bc-ae45-293c5f4fbbc3
+24.02.2024|19:06:42:461|5|bd7af010|Scan2DataWriteInterf.cpp(490)|Scan2DataWriteInterf::close()
+24.02.2024|19:06:42:954|5|bd7af010|Scan2DataWriteInterf.cpp(1127)|openNextScanDataStream
+24.02.2024|19:06:42:954|7|bd7af010|ScanDataStreamScanlineIndex.cpp(171)|ScanDataStreamScanlineIndex::nextScanDataStream()
+24.02.2024|19:06:42:954|7|bd7af010|Scan2DataWriteInterf.cpp(1132)|Scan2DataWriteInterf::openNextScanDataStream(): ScanData/ScanDataStream0

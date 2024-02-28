@@ -1,0 +1,291 @@
+
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "ScannerHardwareParameters"
+}
+Attr<double> { 
+Name "AdConvMax"
+Value 2048
+}
+Attr<double> { 
+Name "AdConvMin"
+Value 0
+}
+Attr<double> { 
+Name "AddtlAmplFactor"
+Value 1
+}
+Attr<double> { 
+Name "AddtlAmplOffset"
+Value 0
+}
+Attr<int> { 
+Name "ApdArtifactsCompEnabled"
+Value 2
+}
+Attr<IntVector> { 
+Name "ApdArtifactsCompRevisions"
+Value { 1 } 
+}
+Attr<int> { 
+Name "APDRevision"
+Value 0
+}
+Attr<DVector> { 
+Name "BasicOpticParams"
+Value { 0.7 0.31 0.048 0.06 0.025 0.03 0.03 0.018 0.005 0.14648438 5 0 5 0.001 35 } 
+}
+Attr<double> { 
+Name "BeamWaistInFocus"
+Value 0.0015
+}
+Attr<int> { 
+Name "CalibVersion"
+Value 5
+}
+Attr<int> { 
+Name "CalibrationPicCols"
+Value 3264
+}
+Attr<int> { 
+Name "CalibrationPicRows"
+Value 2448
+}
+Attr<Mat4dd> { 
+Name "CameraMatrix"
+Value 3003.240968022 0 0 0  0 3039.322007153 0 0  1621.182727509 1268.401073546 1 0  0 0 0 1  
+}
+Attr<Vec3dd> { 
+Name "CameraOffset"
+Value 0.0002413638 0.039956911 0.00045688743
+}
+Attr<Vec3dd> { 
+Name "CameraRotation"
+Value 0.0025443079 0.96963198 0.001897063
+}
+Attr<int> { 
+Name "CmosCameraType"
+Value 3
+}
+Attr<DVector> { 
+Name "ColorCorrectionMatrix"
+Value { 1.81682539 -0.97207524 0.15524986 -0.10931323 1.24448736 -0.13517412 0.11571514 -0.72612913 1.61041398 } 
+}
+Attr<Vec2ddVector> { 
+Name "DeltaDistTable"
+Value { 0 0 0.3908 0.00039 0.6 0.00035 0.8 0.00027 1 0.00022 1.2 0.00016 1.4 0.00014 1.6 0.00012 1.8 0.0001 2 8e-05 2.2 7e-05 2.4 6e-05 2.6 6e-05 2.8 6e-05 3 5e-05 3.2 5e-05 3.4 5e-05 3.6 5e-05 3.8 5e-05 4 6e-05 5 8e-05 6 7e-05 7 4e-05 8 3e-05 9 2e-05 10 1e-05 11 0 12 0 13 0 14 0 15 0 16 0 17 0 18 0 20 0 22 0 24 0 26 0 28 0 30 0 32 0 34 0 36 0 40 0 44 0 48 0 } 
+}
+Attr<bool> { 
+Name "DistanceCutEnabled"
+Value false
+}
+Attr<double> { 
+Name "DistFactorBase"
+Value 0.073171941
+}
+Attr<double> { 
+Name "DistOffset"
+Value 0.059638696
+}
+Attr<double> { 
+Name "DistRange"
+Value 613.974954
+}
+Attr<DVector> { 
+Name "Distortion"
+Value { 0.13386715 -0.31149658 -0.00081883357 0.00012510737 0 } 
+}
+Attr<bool> { 
+Name "ExperimentalParameterSet"
+Value false
+}
+Attr<double> { 
+Name "FpgaSamplingFrequency"
+Value 54687500
+}
+Attr<int> { 
+Name "HorEncoderSteps"
+Value 131072
+}
+Attr<double> { 
+Name "HorLaserAdjustment"
+Value -0.0020633159
+}
+Attr<Vec2ddVector> { 
+Name "HorLaserAdjustmentVelocityDependent"
+Value { 2850 4.247783e-06 5730 8.84288e-06 } 
+}
+Attr<SVec2dd> { 
+Name "HousingOffset"
+Value 0.00012326486 3.797438e-05
+}
+Attr<int> { 
+Name "InclinometerCalibrated"
+Value 2
+}
+Attr<double> { 
+Name "InclinometerCalibratedBiasX"
+Value 0.0052990062
+}
+Attr<double> { 
+Name "InclinometerCalibratedBiasY"
+Value 0.00069512539
+}
+Attr<double> { 
+Name "InclinometerLimitOfTemperatureVariation"
+Value 2
+}
+Attr<double> { 
+Name "InclinometerPhiOffset"
+Value 1.570796327
+}
+Attr<double> { 
+Name "InclinometerPhiX"
+Value 0.0090063729
+}
+Attr<double> { 
+Name "InclinometerPhiY"
+Value 4.719659226
+}
+Attr<double> { 
+Name "InclinometerPosX"
+Value -0.023
+}
+Attr<double> { 
+Name "InclinometerPosY"
+Value -0.0382
+}
+Attr<double> { 
+Name "InclinometerSensitivityX"
+Value 0.29986313
+}
+Attr<double> { 
+Name "InclinometerSensitivityY"
+Value 0.29890467
+}
+Attr<double> { 
+Name "InclinometerTemperatureOfCalibration"
+Value 35.419451019
+}
+Attr<double> { 
+Name "InclinometerWeightX"
+Value 1
+}
+Attr<double> { 
+Name "InclinometerWeightY"
+Value 1
+}
+Attr<UInt32Vector> { 
+Name "JumpsCorrectionParameters"
+Value { 7 1048576 2097152 3145728 4194304 5242880 6291456 7340032 500 1000 } 
+}
+Attr<Vec3dd> { 
+Name "LaserOffset"
+Value -0.00025703842 0.05 -4.2235098e-05
+}
+Attr<double> { 
+Name "LaserWavelength"
+Value 9.05e-07
+}
+Attr<double> { 
+Name "LogAmplDefInput"
+Value 1
+}
+Attr<double> { 
+Name "LogAmplDefOutput"
+Value -2091.805872587
+}
+Attr<double> { 
+Name "LogAmplFactor"
+Value 22.901192906
+}
+Attr<int> { 
+Name "MaxMirrorSpeedRPM"
+Value 6000
+}
+Attr<double> { 
+Name "MinLambda"
+Value 1.199169832
+}
+Attr<double> { 
+Name "MirrorAdjustment"
+Value -0.0017344394
+}
+Attr<Vec2ddVector> { 
+Name "MirrorAdjustmentVelocityDependent"
+Value { 2850 9.4960617e-06 5730 8.9143512e-07 } 
+}
+Attr<double> { 
+Name "MirrorAxisAdjustment"
+Value 0.0011629439
+}
+Attr<Vec2ddVector> { 
+Name "MirrorAxisAdjustmentVelocityDependent"
+Value { 2850 0.00014869385 5730 0.00013026357 } 
+}
+Attr<int> { 
+Name "NumGreyBits"
+Value 11
+}
+Attr<double> { 
+Name "OpticalFarFieldTransitionDistance"
+Value 14
+}
+Attr<int> { 
+Name "PicCols"
+Value 3264
+}
+Attr<int> { 
+Name "PicRows"
+Value 2448
+}
+Attr<int> { 
+Name "PrimaryCalibVersion"
+Value 2
+}
+Attr<int> { 
+Name "ReflBrightThreshold"
+Value 2020
+}
+Attr<int> { 
+Name "ReflBrightThresholdFar"
+Value 1791
+}
+Attr<Vec2ddVector> { 
+Name "ReflDeltaDistPhase1"
+Value { 0 0.00019515194 500 0.00019515194 700 0.00019515194 900 -2.1912143e-05 1100 0 1200 -6.0280248e-05 1300 -9.2908759e-05 1400 -0.00028321675 1500 -0.00047002455 1600 -0.00082434834 1700 -0.0011376772 1800 -0.0010663881 1900 0.00036504517 1905 0.00077894506 1910 0.00093128706 1915 0.0011747979 1920 0.0014273212 1925 0.001662526 1930 0.0018825365 1935 0.0022125966 1940 0.0024578175 1945 0.0027327188 1950 0.0030930253 1955 0.0033574243 1960 0.0037288137 1965 0.0040712 1970 0.004431611 1975 0.0047979475 1980 0.0053187518 1985 0.005733384 1990 0.0062640446 1995 0.0068069543 2000 0.0071353853 2005 0.0081180843 2010 0.0091561656 2015 0.010029466 2020 0.011244153 2025 0.01245884 2030 0.013673527 2035 0.014888214 2040 0.016102901 2046 0.017560525 } 
+}
+Attr<Vec2ddVector> { 
+Name "ReflDeltaDistPhase1Far"
+Value { 0 0.0020482701 500 0.0020482701 700 0.0020482701 900 0.0036278079 1100 0 1200 -0.0014288011 1300 -0.002946607 1400 -0.0048693324 1500 -0.0064421053 1600 -0.0084596829 1700 -0.0098229066 1800 -0.010004256 1900 -0.0053709635 1925 0.0043215389 1950 0.038173081 1975 -0.0068182615 2000 -0.006992115 2010 -0.0070616565 2020 -0.0071311979 2030 -0.0072007393 2035 -0.00723551 2040 -0.0072702807 2045 -0.0073050514 2050 -0.0073398222 } 
+}
+Attr<DVector> { 
+Name "RequestedPositions"
+Value { -71.5 -49 -18 11.5 33 61.5 61.5 33 11.5 -18 -49 -71.5 } 
+}
+Attr<int> { 
+Name "SensorType"
+Value 15
+}
+Attr<double> { 
+Name "TriggerOffset"
+Value -0.0039354521
+}
+Attr<Vec2ddVector> { 
+Name "TriggerOffsetVelocityDependent"
+Value { 2850 -3.0310904e-05 5730 -2.0869388e-05 } 
+}
+Attr<int> { 
+Name "VertEncoderSteps"
+Value 81920
+}
+Attr<double> { 
+Name "VertLaserAdjustment"
+Value -8.8005379e-05
+}
+Attr<Vec2ddVector> { 
+Name "VertLaserAdjustmentVelocityDependent"
+Value { 2850 -0.00013532802 5730 -0.0001349053 } 
+}
+}

@@ -1,0 +1,27 @@
+
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "ScannerInfoParameters"
+}
+Attr<String> { 
+Name "ScannerID"
+Value "LLS092331272"
+}
+Attr<String> { 
+Name "ScannerModel"
+Value "V9_PREMIUM_AUTOMATION"
+}
+Attr<String> { 
+Name "ScannerSerNo"
+Value "LLS092331272"
+}
+Attr<String> { 
+Name "ScannerType"
+Value "Focus Premium Automation"
+}
+Attr<String> { 
+Name "ScanOpDVersion"
+Value "\"iQLib\" 7.2.1.12268"
+}
+}

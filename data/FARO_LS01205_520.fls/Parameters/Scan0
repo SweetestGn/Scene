@@ -1,0 +1,460 @@
+
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "ScanStartParameters"
+}
+Attr<Vec2iVector> { 
+Name "AdditionalEncoderPositionsForImages"
+Value { } 
+}
+Attr<int> { 
+Name "AltimeterUsage"
+Value 0
+}
+Attr<double> { 
+Name "ColAccAngle"
+Value 0
+}
+Attr<double> { 
+Name "ColEndAngle"
+Value 0
+}
+Attr<int> { 
+Name "ColorScan"
+Value 0
+}
+Attr<double> { 
+Name "ColStartAngle"
+Value 0
+}
+Attr<int> { 
+Name "CompassUsage"
+Value 0
+}
+Attr<bool> { 
+Name "ContourFilterEnabled"
+Value true
+}
+Attr<bool> { 
+Name "DetailScan"
+Value false
+}
+Attr<int> { 
+Name "ExposureMeteringMode"
+Value 0
+}
+Attr<bool> { 
+Name "FarDistancesProfileEnabled"
+Value false
+}
+Attr<bool> { 
+Name "ForceEndAngleReached"
+Value true
+}
+Attr<int> { 
+Name "ForceSkipSensorRun"
+Value 0
+}
+Attr<int> { 
+Name "GPSUsage"
+Value 0
+}
+Attr<bool> { 
+Name "HashingDisabled"
+Value false
+}
+Attr<int> { 
+Name "HDRMode"
+Value 0
+}
+Attr<double> { 
+Name "HorLaserAdjustmentTemperatureDependent"
+Value -0.0020801208
+}
+Attr<double> { 
+Name "HorSpeedOverride"
+Value 0
+}
+Attr<bool> { 
+Name "HorSpeedOverrideActive"
+Value false
+}
+Attr<int> { 
+Name "ImageResolution"
+Value 0
+}
+Attr<int> { 
+Name "InclinometerDistanceBetweenPoints"
+Value 131
+}
+Attr<int> { 
+Name "InclinometerUsage"
+Value 0
+}
+Attr<bool> { 
+Name "KeepMirrorRotating"
+Value false
+}
+Attr<int> { 
+Name "LaserHdrMode"
+Value 0
+}
+Attr<double> { 
+Name "LaserPower"
+Value 0
+}
+Attr<double> { 
+Name "MirrorAdjustmentTemperatureDependent"
+Value -0.0017357501
+}
+Attr<double> { 
+Name "MirrorAxisAdjustmentTemperatureDependent"
+Value 0.0011629439
+}
+Attr<bool> { 
+Name "NearDistancesProfileEnabled"
+Value false
+}
+Attr<int> { 
+Name "NightMode"
+Value 0
+}
+Attr<String> { 
+Name "OperatorCompany"
+}
+Attr<String> { 
+Name "OperatorDepartment"
+}
+Attr<String> { 
+Name "OperatorEMailAdress"
+}
+Attr<String> { 
+Name "OperatorInfo"
+}
+Attr<String> { 
+Name "OperatorName"
+Value "\u9ED8\u8BA4\u64CD\u4F5C\u5458"
+}
+Attr<String> { 
+Name "OperatorNumber"
+}
+Attr<bool> { 
+Name "OpticalCrosstalkCompensationDisable"
+Value false
+}
+Attr<int> { 
+Name "Oversampling"
+Value 1
+}
+Attr<bool> { 
+Name "PanoCamEnabled"
+Value false
+}
+Attr<int> { 
+Name "PanoCamNumPictures"
+Value 0
+}
+Attr<String> { 
+Name "panoCamAcquisitionMode"
+Value "DEFAULT"
+}
+Attr<String> { 
+Name "ProfileName"
+Value "DETAIL_SCAN_MEDIUM_RES_COL"
+}
+Attr<bool> { 
+Name "QuickScan"
+Value false
+}
+Attr<int> { 
+Name "ResolutionDivisor"
+Value 16
+}
+Attr<double> { 
+Name "RowEndAngle"
+Value -1.047197551
+}
+Attr<double> { 
+Name "RowStartAngle"
+Value 1.570796327
+}
+Attr<double> { 
+Name "SeamLineAngle"
+Value 0
+}
+Attr<Uuid> { 
+Name "ScanGroup"
+Value daf5b134-58cc-45ee-a0c6-365d28a85286
+}
+Attr<String> { 
+Name "ScanGroupName"
+}
+Attr<Uuid> { 
+Name "ScanId"
+Value cf0a2f22-8729-469a-aaa5-1bbebae2e244
+}
+Attr<Uuid> { 
+Name "ScanProfile"
+Value 5abcadbf-bfd1-4c62-ab66-73a20c4b9f3f
+}
+Attr<String> { 
+Name "ScanStopCondition"
+Value "AUTOMATIC"
+}
+Attr<String> { 
+Name "ScanType"
+Value "STATIONARYSCANNING"
+}
+Attr<int> { 
+Name "SeamLineCorrectionApplied"
+Value -1
+}
+Attr<int> { 
+Name "SkipFinalResetToHome"
+Value 0
+}
+Attr<bool> { 
+Name "SkipInitialMirrorHoming"
+Value false
+}
+Attr<bool> { 
+Name "SkyFilterEnabled"
+Value true
+}
+Attr<Uuid> { 
+Name "TenXId"
+Value 00000000-0000-0000-0000-000000000000
+}
+Attr<Uuid> { 
+Name "TenXPrevScanUuid"
+Value 00000000-0000-0000-0000-000000000000
+}
+Attr<String> { 
+Name "TenXSequenceName"
+}
+Attr<double> { 
+Name "TriggerOffsetTemperatureDependent"
+Value -0.0039176346
+}
+Attr<int> { 
+Name "TriggerSubsample"
+Value 32
+}
+Attr<double> { 
+Name "UsedMirrorVelocity"
+Value 5722.045898438
+}
+Attr<bool> { 
+Name "UseInclinometerDataWhileMirrorIsRotating"
+Value false
+}
+Attr<int> { 
+Name "TemperatureDependentAngularParametersMode"
+Value 1
+}
+Attr<double> { 
+Name "VertLaserAdjustmentTemperatureDependent"
+Value -4.8956297e-05
+}
+Attr<int> { 
+Name "XControl"
+Value 4
+}
+SubContainer { 
+"AttrContainer" "SensorTemperaturesStart"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "SensorTemperaturesStart"
+}
+SubContainer { 
+"SensorTemperature" "SENSOR_TEMP_APD"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "SENSOR_TEMP_APD"
+}
+Attr<double> { 
+Name "temperature"
+Value 21.93
+}
+Attr<double> { 
+Name "timestamp"
+Value 1708776302.631700039
+}
+}
+}
+SubContainer { 
+"SensorTemperature" "SENSOR_TEMP_TX"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "SENSOR_TEMP_TX"
+}
+Attr<double> { 
+Name "temperature"
+Value 69.28
+}
+Attr<double> { 
+Name "timestamp"
+Value 1708776302.496284962
+}
+}
+}
+SubContainer { 
+"SensorTemperature" "TEMP_BATTERY"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "TEMP_BATTERY"
+}
+Attr<double> { 
+Name "temperature"
+Value 24.35
+}
+Attr<double> { 
+Name "timestamp"
+Value 1708776303.196945906
+}
+}
+}
+SubContainer { 
+"SensorTemperature" "TEMP_CPU"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "TEMP_CPU"
+}
+Attr<double> { 
+Name "temperature"
+Value 30.9
+}
+Attr<double> { 
+Name "timestamp"
+Value 1708776302.402384996
+}
+}
+}
+SubContainer { 
+"SensorTemperature" "TEMP_EPC"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "TEMP_EPC"
+}
+Attr<double> { 
+Name "temperature"
+Value 23.678
+}
+Attr<double> { 
+Name "timestamp"
+Value 1708776302.711354017
+}
+}
+}
+SubContainer { 
+"SensorTemperature" "TEMP_F0086_CPU"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "TEMP_F0086_CPU"
+}
+Attr<double> { 
+Name "temperature"
+Value 25.3671875
+}
+Attr<double> { 
+Name "timestamp"
+Value 1708776302.593387365
+}
+}
+}
+SubContainer { 
+"SensorTemperature" "TEMP_GPU"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "TEMP_GPU"
+}
+Attr<double> { 
+Name "temperature"
+Value 30.9
+}
+Attr<double> { 
+Name "timestamp"
+Value 1708776302.711347103
+}
+}
+}
+SubContainer { 
+"SensorTemperature" "TEMP_LSSENSORDATA"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "TEMP_LSSENSORDATA"
+}
+Attr<double> { 
+Name "temperature"
+Value 26
+}
+Attr<double> { 
+Name "timestamp"
+Value 1708776302.631626606
+}
+}
+}
+SubContainer { 
+"SensorTemperature" "TEMP_OPTAMPL"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "TEMP_OPTAMPL"
+}
+Attr<double> { 
+Name "temperature"
+Value 22.8
+}
+Attr<double> { 
+Name "timestamp"
+Value 1708776302.447128296
+}
+}
+}
+SubContainer { 
+"SensorTemperature" "TEMP_SSD"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "TEMP_SSD"
+}
+Attr<double> { 
+Name "temperature"
+Value 31
+}
+Attr<double> { 
+Name "timestamp"
+Value 1708776302.874858379
+}
+}
+}
+SubContainer { 
+"SensorTemperature" "TEMP_WLAN"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "TEMP_WLAN"
+}
+Attr<double> { 
+Name "temperature"
+Value 41
+}
+Attr<double> { 
+Name "timestamp"
+Value 1708776302.711356163
+}
+}
+}
+}
+}
+}

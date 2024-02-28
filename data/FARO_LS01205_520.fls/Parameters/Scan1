@@ -1,0 +1,226 @@
+
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "ScanEndParameters"
+}
+Attr<double> { 
+Name "AltimeterCurrentAltitude"
+Value 0
+}
+Attr<double> { 
+Name "APDTemperatureFinish"
+Value -1
+}
+Attr<double> { 
+Name "APDTemperatureStart"
+Value 22
+}
+Attr<int> { 
+Name "BytesLostUsb"
+Value 0
+}
+Attr<bool> { 
+Name "CompassDataValid"
+Value true
+}
+Attr<double> { 
+Name "CompassDirection"
+Value 105.115313883
+}
+Attr<double> { 
+Name "CompassMagnitude"
+Value 0.38502691
+}
+Attr<double> { 
+Name "CompassUncertainty"
+Value 0.25367649
+}
+Attr<double> { 
+Name "DistFactor"
+Value 0.073171727
+}
+Attr<DVector> { 
+Name "ExposureTimes"
+Value { } 
+}
+Attr<DVector> { 
+Name "GainFactors"
+Value { } 
+}
+Attr<String> { 
+Name "GPSNMEA"
+}
+Attr<DVector> { 
+Name "HDRExposureTimes"
+Value { 1 } 
+}
+Attr<IntVector> { 
+Name "HdrIndex"
+Value { } 
+}
+Attr<double> { 
+Name "IncAltitude"
+Value 0
+}
+Attr<double> { 
+Name "IncLatitude"
+Value 48.8488
+}
+Attr<double> { 
+Name "InclinometerBiasX"
+Value 0
+}
+Attr<double> { 
+Name "InclinometerBiasY"
+Value 0
+}
+Attr<int> { 
+Name "InclinometerDataIsValid"
+Value 1
+}
+Attr<int> { 
+Name "InclinometerError"
+Value 0
+}
+Attr<double> { 
+Name "InclinometerPhi"
+Value 1.892623815
+}
+Attr<int> { 
+Name "InclinometerOrientationQuality"
+Value 1
+}
+Attr<double> { 
+Name "InclinometerScanAngle"
+Value 0.0063265914
+}
+Attr<Vec3dd> { 
+Name "InclinometerScanAxis"
+Value 0.94865897 0.31630075 -0
+}
+Attr<double> { 
+Name "InclinometerTemperatureMax"
+Value 35.4
+}
+Attr<double> { 
+Name "InclinometerTemperatureMean"
+Value 34.819431071
+}
+Attr<double> { 
+Name "InclinometerTemperatureMin"
+Value 34.29375
+}
+Attr<double> { 
+Name "InclinometerTemperatureStd"
+Value 0.12778756
+}
+Attr<double> { 
+Name "InclinometerTheta"
+Value 0.0063265914
+}
+Attr<IntVector> { 
+Name "MessageId"
+Value { } 
+}
+Attr<IntVector> { 
+Name "MessageLevel"
+Value { } 
+}
+Attr<StringArray> { 
+Name "MessageSubject"
+Value 0
+}
+Attr<StringArray> { 
+Name "MessageText"
+Value 0
+}
+Attr<IntVector> { 
+Name "MessageType"
+Value { } 
+}
+Attr<int> { 
+Name "NumCols"
+Value 2500
+}
+Attr<int> { 
+Name "NumRows"
+Value 1
+}
+Attr<int> { 
+Name "NumScanLines"
+Value 1250
+}
+Attr<uint16_t> { 
+Name "OutsideAirPressureF0086"
+Value 1024
+}
+Attr<double> { 
+Name "OutsideTemperatureF0086"
+Value 0
+}
+Attr<bool> { 
+Name "OverHeadOrientation"
+Value false
+}
+Attr<IntVector> { 
+Name "PictureIds"
+Value { } 
+}
+Attr<uint16_t> { 
+Name "ReferenceIntensityAverage"
+Value 1529
+}
+Attr<uint16_t> { 
+Name "ReferenceIntensityAverageLowPower"
+Value 1422
+}
+Attr<uint16_t> { 
+Name "ReferenceIntensityFarDistances"
+Value 1214
+}
+Attr<Vec3dd> { 
+Name "ScanAxis"
+Value 0.94865897 0.31630075 -0
+}
+Attr<double> { 
+Name "ScanStartHorEncAngle"
+Value 2.396845e-05
+}
+Attr<double> { 
+Name "ScanDuration"
+Value 15.0600305
+}
+Attr<double> { 
+Name "Temperature"
+Value 0
+}
+Attr<String> { 
+Name "TenXSequence"
+}
+Attr<String> { 
+Name "Time"
+Value "2024-02-24T19:06:43+07:00"
+}
+Attr<UInt32Vector> { 
+Name "UnusedPictures"
+Value { } 
+}
+Attr<bool> { 
+Name "UsedMeasuredPressure"
+Value true
+}
+Attr<bool> { 
+Name "UsedMeasuredTemperature"
+Value false
+}
+SubContainer { 
+"AttrContainer" "SensorTemperaturesFinish"
+AttrContainer { 
+Attr<String> { 
+Name "Name"
+Value "SensorTemperaturesFinish"
+}
+}
+}
+}
