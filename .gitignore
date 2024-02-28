@@ -364,3 +364,6 @@ FodyWeavers.xsd
 
 # 3rdparty
 3rdparty/
+
+# data
+data/output/
