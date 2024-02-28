@@ -93,6 +93,7 @@ int wWinMain(HINSTANCE hInstance,
 				int rows = scan->getNumRows();
 				int cols = scan->getNumCols();
 				
+				// We save the time of each station in rows and columns to the hard drive
 				std::ofstream outFile(dirFile + std::to_string(counterScan) + ".csv");
 				for (int row = 0; row < rows; ++row){
 					for (int col = 0; col < cols; ++col) {
